@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    background-color: #fff;
+    color: #000;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(102, 102, 102, 0.3);
+    display: block;
+}
+
+#header #logo {
+    color: #000;
+    text-decoration: none;
+    line-height: 46px;
+    float: left;
+    margin-right: 1000px;
+    margin-left: 30px;
+    font-size: 24px;
+    padding: 0 12px;
+}
+
+#header #logo:hover {
+    background-color: #ccc;
+}
+
+#header ul>li {
+    list-style-type: none;
+}
+
+#header ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16pt;
+    float: left;
+    line-height: 46px;
+    padding: 0 20px;
+}
+
+#header ul li:hover a {
+    background-color: #ccc;
+}
+
+#home img {
+    padding: 10px 20px;
+    width: 100%;
+    height: auto;
+}
+
+.text-content {
+    position: absolute;
+    bottom: 45%;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 28pt;
+}
+
+.text-heading {
+    font-weight: 700;
+    background-color: #000;
+    opacity: 0.8;
+    padding: 10px 20px;
+}
+
+#main {
+    text-align: center;
+}
+
+#Projects {
+    padding: 10px 20px;
+    font-size: 18pt;
+    width: 100%;
+}
+
+#Projects p {
+    margin-bottom: 40px;
+}
+
+#Projects .img-container {
+    width: 25%;
+    float: left;
+}
+
+#Projects .img-container img {
+    width: 70%;
+}
+
+#Projects .img-container p {
+    background-color: #000;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    margin-left: 55px;
+}
+
+#About {
+    padding: 10px 20px;
+    font-size: 18pt;
+    width: 100%;
+}
+
+#About #world {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+#About .person {
+    width: 25%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+#About .person img {
+    width: 95%;
+}
+
+#About .person h3 {
+    font-weight: 400;
+}
+
+#About .person .w3-opacity {
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#About .person p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#About .person button {
+    width: 95%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#About .person button:hover {
+    background-color: #ccc;
+}
+
+#Contact {
+    padding: 10px 20px;
+    font-size: 18pt;
+    width: 100%;
+    display: block;
+}
+
+#Contact #text {
+    margin-bottom: 30px;
+}
+
+#Contact .w3-input {
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#Contact .w3-button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+}
+
+#Contact .w3-button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#map img {
+    padding: 40px 20px 0 20px;
+    width: 100%;
+}
